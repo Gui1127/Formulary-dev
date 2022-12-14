@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulary</title>
+</head>
+
+<body>
+
+  <div>
+    <h1>DEVs Registration</h1>
+    <p>Complete your information</p>
+  </div>
+
+  <form action="" method="">
+    <fieldset>
+      <legend>Contacts</legend>
+      <div>
+        <label for="name">Full Name</label>
+        <br>
+        <input id= "name" name="name" type="text" autocomplete="name" required placeholder="Type your name">
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email" autocomplete="email" required placeholder="Type your email">
+        <br>
+        <br>
+      </div>
+
+      <div>
+        <label for="devtype">What type of programmer are you?</label>
+        <label>
+          <input type="radio" name="devtype" id="devtype" value="frontend" checked>front-end
+        </label>
+        <label>
+          <input type="radio" name="devtype" id="devtype" value="backend">Back-end
+        </label>
+        <label>
+          <input type="radio" name="devtype" id="devtype" value="fullstack">Full Stack
+        </label>
+        <br>
+        <br>
+      </div> 
+
+      <div>
+        <label for="devlevel">What level are you?</label>
+        <select name="devlevel" id="devlevel">
+          <option selected value="" disabled>Select</option>
+          <option value="Trainee">Trainee</option>
+          <option value="Junior">Junior</option>
+          <option value="Full">Full</option>
+          <option value="Senior">Senior</option>
+        </select>
+      </div>
+
+      <button>Send</button>
+      </fieldset>
+  </form>
+</body>
+</html>
