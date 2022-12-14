@@ -8,7 +8,7 @@
   <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;
 </p>
 
-<p>
+<p align="center">
   This is a formulary that I am developing to learn new functions in HTML and CSS
 </p>
 <br>
